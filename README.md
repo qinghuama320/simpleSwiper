@@ -1,0 +1,4 @@
+# simpleSwiper
+简单的自动无限轮播效果，鼠标悬停时停止滚动
+
+滚动元素是react组件。第三方swiper库的原理是复制第一个及最末一个.swiper-slide，react组件的状态不能复制。如果react组件是动态接收数据的，则在滚动时会出现空白slide。所以自己写了一个，slide的复制须在simpleSwiper组件外完成。
